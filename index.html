@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10191b">
+  <meta name="description" content="MapFirst：先探图，再行动。一个开源的决策与复盘工具。">
+  <title>MapFirst · 先探图，再行动</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#workspace">跳到工作区</a>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="MapFirst 首页"><span class="brand-mark">M<span>↗</span></span><span>MAPFIRST</span></a>
+    <nav aria-label="主导航"><a href="#method">方法</a><a href="#workspace">工作区</a><a href="#principles">原则</a></nav>
+    <span class="top-note">OPEN SOURCE · LOCAL FIRST</span>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal"></span> A DECISION OPERATING SYSTEM</p>
+        <h1 id="hero-title">先探图，<br><em>再行动。</em></h1>
+        <p class="hero-lead">把模糊的“认知提升”变成可以执行的循环：看清选择、验证假设、做小实验、根据结果更新自己。</p>
+        <div class="hero-actions"><a class="button primary" href="#workspace">开始一个决策 <span aria-hidden="true">↗</span></a><a class="text-link" href="#method">了解方法 ↓</a></div>
+      </div>
+      <div class="hero-visual" aria-label="探图、试验、复盘、更新组成一个循环">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="visual-center"><span>YOUR NEXT<br>MOVE</span><strong>?</strong></div>
+        <span class="orbit-label label-a">01 / 探图</span><span class="orbit-label label-b">02 / 试验</span><span class="orbit-label label-c">03 / 复盘</span><span class="orbit-label label-d">04 / 更新</span>
+      </div>
+    </section>
+
+    <section class="manifesto" id="method"><div class="wrap">
+      <div class="section-heading"><p class="eyebrow">THE METHOD / 方法</p><h2>一个持续运行的<br>认知飞轮。</h2><p>适合择业、学习、创作、创业等复杂选择。每一步都留下可检查的记录。</p></div>
+      <div class="method-grid">
+        <article><span class="number">01</span><div class="glyph">⌖</div><h3>探图</h3><p>列出真实选项、关键约束和信息缺口。先找证据，再形成判断。</p><small>不要急着选；先让地图变清楚。</small></article>
+        <article><span class="number">02</span><div class="glyph">↗</div><h3>小步试验</h3><p>把观点写成可检验的假设，用低成本行动收集反馈。</p><small>用行动降低不确定性。</small></article>
+        <article><span class="number">03</span><div class="glyph">◎</div><h3>复盘</h3><p>记录预期与事实的差异。区分结果、运气与自己的判断。</p><small>不要只问成败；问学到了什么。</small></article>
+        <article><span class="number">04</span><div class="glyph">↻</div><h3>更新</h3><p>根据证据调整方向，保留选择权，然后开始下一轮。</p><small>认知不是观点合集，是迭代能力。</small></article>
+      </div>
+    </div></section>
+
+    <section class="workspace-section wrap" id="workspace" aria-labelledby="workspace-title">
+      <div class="section-heading work-heading"><div><p class="eyebrow">INTERACTIVE CANVAS / 工作区</p><h2 id="workspace-title">把一个选择，<br>拆成下一步。</h2></div><p>内容只保存在当前浏览器。你可以导出 JSON 留存，也可以随时清空。</p></div>
+      <div class="workspace-layout">
+        <div class="canvas">
+          <div class="canvas-top"><span>DECISION CANVAS <span class="version">/ 01</span></span><span id="save-status" role="status" aria-live="polite">准备就绪</span></div>
+          <form id="decision-form">
+            <div class="form-intro"><label for="decision">你正在做什么决定？</label><input id="decision" name="decision" maxlength="180" placeholder="例如：未来三个月，我该探索哪种工作方向？" autocomplete="off"><span class="field-help">写一个具体、有时间边界的问题。</span></div>
+            <div class="field-grid">
+              <div class="field"><label for="options"><span class="step-dot">01</span> 有哪些选择？</label><textarea id="options" name="options" rows="4" placeholder="每行一个选项；包括维持现状"></textarea></div>
+              <div class="field"><label for="unknowns"><span class="step-dot">02</span> 还缺什么信息？</label><textarea id="unknowns" name="unknowns" rows="4" placeholder="哪些事实一旦知道，会改变你的决定？"></textarea></div>
+              <div class="field"><label for="hypothesis"><span class="step-dot">03</span> 你的关键假设？</label><textarea id="hypothesis" name="hypothesis" rows="4" placeholder="我认为……因为……；什么证据会推翻它？"></textarea></div>
+              <div class="field"><label for="experiment"><span class="step-dot">04</span> 七天内能做的小实验？</label><textarea id="experiment" name="experiment" rows="4" placeholder="一个低成本、可观察结果的行动"></textarea></div>
+              <div class="field"><label for="evidence"><span class="step-dot">05</span> 实际看到了什么？</label><textarea id="evidence" name="evidence" rows="4" placeholder="记录事实、数字、反馈；不要只写感受"></textarea></div>
+              <div class="field"><label for="update"><span class="step-dot">06</span> 下一轮怎么调整？</label><textarea id="update" name="update" rows="4" placeholder="继续、改变还是停止？下一个验证动作是什么？"></textarea></div>
+            </div>
+            <div class="canvas-actions"><button type="button" class="button primary" id="copy-prompt">复制 AI 提问模板 ↗</button><button type="button" class="button secondary" id="export-json">导出 JSON</button><label class="button secondary import-button" for="import-json">导入 JSON</label><input id="import-json" type="file" accept="application/json,.json" hidden><button type="button" class="text-button" id="load-example">加载示例</button><button type="button" class="text-button danger" id="clear-data">清空</button></div>
+          </form>
+        </div>
+        <aside class="sidebar" aria-label="进度和提示"><div class="progress-card"><p class="eyebrow">YOUR PROGRESS</p><strong id="progress-number">0<span>/6</span></strong><div class="progress-track"><div id="progress-fill"></div></div><p id="progress-message">从一个具体问题开始。</p></div><div class="tip-card"><span>✳ FIELD NOTE</span><h3>AI 是研究助手，<br>不是裁判。</h3><p>请它列出选项、反例和待核实的事实。涉及投资、健康或法律时，回到可靠来源和专业人士。</p></div><div class="source-card"><span>SOURCE & INSPIRATION</span><p>方法框架受邵艾伦与孙宇晨的长访谈启发，并经过独立整理。这里的工具不是对嘉宾观点的背书。</p><a href="https://youtu.be/0Z-vhBvBmUY" target="_blank" rel="noopener noreferrer">观看原视频 ↗</a></div></aside>
+      </div>
+    </section>
+
+    <section class="principles" id="principles"><div class="wrap principles-inner"><div><p class="eyebrow">OPERATING PRINCIPLES</p><h2>把选择权<br>留给未来的自己。</h2></div><ol><li><span>01</span>先看世界，再表达确信。</li><li><span>02</span>把重要观点变成可证伪的假设。</li><li><span>03</span>用小行动购买真实信息。</li><li><span>04</span>定期更新，不为旧判断辩护。</li><li><span>05</span>照顾身体，维持长期探索能力。</li></ol></div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><span>MAPFIRST · OPEN SOURCE</span><span>看清 → 尝试 → 学习 → 更新</span><a href="#top">回到顶部 ↑</a></div></footer>
+</body>
+</html>
