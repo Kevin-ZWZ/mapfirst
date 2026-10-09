@@ -8,13 +8,13 @@
 
 当你面对择业、学习、创作、创业等不确定选择时，MapFirst 帮你把“提升认知”落到一张可执行的画布上。它不会替你给出答案，而是帮你看见选项、发现信息缺口、设计低成本实验，并记录判断如何改变。
 
-**[方法手册](docs/method.md)** · **[贡献指南](CONTRIBUTING.md)** · **[原视频](https://youtu.be/0Z-vhBvBmUY)**
+**[在线体验](https://kevin-zwz.github.io/mapfirst/)** · **[方法手册](docs/method.md)** · **[贡献指南](CONTRIBUTING.md)** · **[原视频](https://youtu.be/0Z-vhBvBmUY)**
 
 **一句话介绍：** A local-first decision canvas that turns vague thinking into testable actions.
 
 ## 30 秒开始
 
-1. 打开 `index.html`，或把仓库部署到 GitHub Pages。
+1. 打开[在线版本](https://kevin-zwz.github.io/mapfirst/)，或直接打开下载后的 `index.html`。
 2. 写下一个具体的、有时间边界的决定。
 3. 填写选项、信息缺口、关键假设和七天实验。
 4. 行动后补上事实和下一轮调整。

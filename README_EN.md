@@ -8,6 +8,8 @@ English · [中文](README.md)
 
 MapFirst helps you work through uncertain decisions with a simple loop: **map the options → run a small experiment → review evidence → update your next move**. It is useful for career choices, learning plans, creative work, and early product ideas.
 
+**[Live demo](https://kevin-zwz.github.io/mapfirst/)** · **[Method guide (中文)](docs/method.md)**
+
 ## Try it
 
 Open `index.html` directly in your browser. No install, account, build step, or API key is needed. The interface is currently in Chinese; an English UI is on the [roadmap](README.md#路线图).
