@@ -1,12 +1,14 @@
-# MapFirst · Map before you move
+# MapFirst · A career action guide for your twenties
 
 ![MapFirst cover](assets/cover.svg)
 
 English · [中文](README.md)
 
-**A local-first decision canvas that turns vague thinking into testable actions.**
+**Inspired by Alan Shao × Justin Sun: turn three ideas into career experiments, visible work, and informed next moves.**
 
-MapFirst helps you work through uncertain decisions with a simple loop: **map the options → run a small experiment → review evidence → update your next move**. It is useful for career choices, learning plans, creative work, and early product ideas.
+MapFirst is aimed at people aged 20–30 exploring jobs, career changes, and long-term direction. It translates the interview's “Sun Xue” (updating your map with AI and first-hand information), “Bo Ji” (proactive physical wellbeing), and “Huang Mao” (acting despite social judgment) into practical steps. These translations are the project's own interpretation.
+
+Use the loop: **inspect real jobs → build a small proof of work → ask for feedback → update your direction**.
 
 **[Live demo](https://kevin-zwz.github.io/mapfirst/)** · **[Method guide (中文)](docs/method.md)**
 
